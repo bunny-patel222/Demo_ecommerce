@@ -36,6 +36,9 @@ public class LoginPage extends AbstractComponent {
         password.sendKeys(Password);
         submitLogin.click();
 
+
+        //changes for testing
+
     }
 
 }
