@@ -37,7 +37,7 @@ public class LoginPage extends AbstractComponent {
         submitLogin.click();
 
 
-        //changes for testing
+        //changes for testing branch
 
     }
 
