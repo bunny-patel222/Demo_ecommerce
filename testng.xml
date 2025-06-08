@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Automation Practice/NEW_PRAC/Demo_2">
+        <classes>
+            <class name="Demo_2.ecommers.Login">
+                <methods>
+                    <include name="LoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
