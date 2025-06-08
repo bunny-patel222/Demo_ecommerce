@@ -21,7 +21,7 @@ public class BaseTest {
     public WebDriver IntDriver() throws IOException {
 
 
-       LoadData();
+        LoadData();
 
         if (browserName.equalsIgnoreCase("chrome")) {
 
@@ -55,6 +55,7 @@ public class BaseTest {
 
 
     }
+
     public void LoadData() throws IOException {
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/test/java/TestComponents/GlobalData.properties");

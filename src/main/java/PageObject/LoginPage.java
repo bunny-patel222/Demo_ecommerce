@@ -30,7 +30,7 @@ public class LoginPage extends AbstractComponent {
     @FindBy(id = "login")
     WebElement submitLogin;
 
-    public void loginIn(String Email, String Password){
+    public void loginIn(String Email, String Password) {
 
         userEmail.sendKeys(Email);
         password.sendKeys(Password);

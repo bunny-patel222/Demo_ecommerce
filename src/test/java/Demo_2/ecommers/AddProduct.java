@@ -36,13 +36,9 @@ public class AddProduct extends BaseTest {
 
 
         CartPage cartPage = new CartPage(driver);
-       boolean match = cartPage.VerifyProductDispay(ProductName);
+        boolean match = cartPage.VerifyProductDispay(ProductName);
         Assert.assertTrue(match);
         cartPage.checkout();
-
-
-
-
 
 
     }
