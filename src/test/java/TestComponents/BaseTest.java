@@ -21,14 +21,6 @@ public class BaseTest {
     public WebDriver IntDriver() throws IOException {
 
 
-//        Properties prop = new Properties();
-//        //FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "src\\test\\java\\TestComponents\\GlobalData.properties");
-//       // FileInputStream fis = new FileInputStream("D:\\Automation Practice\\NEW_PRAC\\Demo_2\\src\\test\\java\\TestComponents\\GlobalData.properties");
-//        FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/test/java/TestComponents/GlobalData.properties");
-//        prop.load(fis);
-//
-//         browserName = prop.getProperty("browser");
-//         URL = prop.getProperty("website");
        LoadData();
 
         if (browserName.equalsIgnoreCase("chrome")) {
